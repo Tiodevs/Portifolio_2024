@@ -7,6 +7,8 @@ btnMenu.addEventListener('click', () => {
     btnMenu.classList.toggle('is-active')
 })
 
+alert("TESTE")
+
 // const conteudo = document.querySelector('.conteudo');
 
 // window.addEventListener('wheel', (event) => {
