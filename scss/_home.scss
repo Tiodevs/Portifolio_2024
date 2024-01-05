@@ -397,7 +397,7 @@ main {
 
 @media (max-width: 1070px){
     #head{
-        padding-top: 100px;
+        padding-top: 140px;
 
         h1 {
             font-size: 7.5vw;
@@ -437,26 +437,37 @@ main {
 }
 
 @media (max-width: 555px){
+    .scroll-icon{
+        margin-top: 0;
+    }
     #head{
-        padding-top: 50px;
+        padding-top: 20px;
+        
+        #header-btn{
+            margin-top: 2vh;
+
+
+            .header-btn1 {
+                width: 40vw;
+                height: calc(40vw/4.5);
+                flex-shrink: 0;
+                img{
+                    width: 5vw;
+                }
+                .p-btn-header{
+                    font-size: 2.5vw;
+                }
+            }
+        }
 
         h1 {
             font-size: 8.5vw;
 
         }
         p {
-            font-size: 2.2vw;
+            font-size: 2.6vw;
         }
 
-        .header-btn1 {
-            border-radius: 10px;
-            border: solid var(--corAzulClaro) 1px;
-            width: 30vw;
-            height: calc(30vw/4.5);
-            flex-shrink: 0;
-            img{
-                width: 5vw;
-            }
-        }
+        
     }
 }

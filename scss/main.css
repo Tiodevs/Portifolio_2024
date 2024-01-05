@@ -328,7 +328,7 @@ main .section2 {
 
 @media (max-width: 1070px) {
   #head {
-    padding-top: 100px;
+    padding-top: 140px;
   }
   #head h1 {
     font-size: 7.5vw;
@@ -357,23 +357,30 @@ main .section2 {
   }
 }
 @media (max-width: 555px) {
+  .scroll-icon {
+    margin-top: 0;
+  }
   #head {
-    padding-top: 50px;
+    padding-top: 20px;
+  }
+  #head #header-btn {
+    margin-top: 2vh;
+  }
+  #head #header-btn .header-btn1 {
+    width: 40vw;
+    height: 8.8888888889vw;
+    flex-shrink: 0;
+  }
+  #head #header-btn .header-btn1 img {
+    width: 5vw;
+  }
+  #head #header-btn .header-btn1 .p-btn-header {
+    font-size: 2.5vw;
   }
   #head h1 {
     font-size: 8.5vw;
   }
   #head p {
-    font-size: 2.2vw;
-  }
-  #head .header-btn1 {
-    border-radius: 10px;
-    border: solid var(--corAzulClaro) 1px;
-    width: 30vw;
-    height: 6.6666666667vw;
-    flex-shrink: 0;
-  }
-  #head .header-btn1 img {
-    width: 5vw;
+    font-size: 2.6vw;
   }
 }/*# sourceMappingURL=main.css.map */
