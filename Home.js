@@ -7,10 +7,32 @@ btnMenu.addEventListener('click', () => {
     btnMenu.classList.toggle('is-active')
 })
 
+// FUNÇÃO DE ESCOLAR DIRETO PARA A OUTRA SESSÃO
 
-// const conteudo = document.querySelector('.conteudo');
+// let lastScrollTime = 0;
 
-// window.addEventListener('wheel', (event) => {
-//     window.scrollBy(0, event.deltaY * 5);
-//     event.preventDefault();
-//   });
+// window.addEventListener("wheel", event => {
+//     const now = new Date().getTime();
+    
+//     // Verificando a direção do scroll
+//     const delta = Math.sign(event.deltaY);
+    
+//     if (now - lastScrollTime < 800) {
+//         event.preventDefault();
+//         return;
+//     }
+
+//     lastScrollTime = now;
+
+//     if(delta == -1){
+//         window.scrollTo({
+//             top: window.scrollY - 900,
+            
+//         });
+//     } else {
+//         window.scrollTo({
+//             top: window.scrollY + 900,
+            
+//         });
+//     }
+// });
