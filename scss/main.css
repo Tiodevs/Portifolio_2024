@@ -345,9 +345,6 @@ main .section2 {
   #head #header-btn .header-btn1 .p-btn-header {
     font-size: 1.7vw;
   }
-  #head #header-btn .header-btn2 {
-    display: none;
-  }
   #head #header-btn .header-btn1 {
     border-radius: 10px;
     border: solid var(--corAzulClaro) 1px;
@@ -360,7 +357,23 @@ main .section2 {
   }
 }
 @media (max-width: 555px) {
+  #head {
+    padding-top: 50px;
+  }
+  #head h1 {
+    font-size: 8.5vw;
+  }
   #head p {
-    font-size: 1.2vw;
+    font-size: 2.2vw;
+  }
+  #head .header-btn1 {
+    border-radius: 10px;
+    border: solid var(--corAzulClaro) 1px;
+    width: 30vw;
+    height: 6.6666666667vw;
+    flex-shrink: 0;
+  }
+  #head .header-btn1 img {
+    width: 5vw;
   }
 }/*# sourceMappingURL=main.css.map */

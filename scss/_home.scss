@@ -399,8 +399,6 @@ main {
     #head{
         padding-top: 100px;
 
-        
-
         h1 {
             font-size: 7.5vw;
 
@@ -423,9 +421,7 @@ main {
                     font-size: 1.7vw;
                 }
             }
-            .header-btn2{
-                display: none;
-            }
+            
             .header-btn1 {
                 border-radius: 10px;
                 border: solid var(--corAzulClaro) 1px;
@@ -442,8 +438,25 @@ main {
 
 @media (max-width: 555px){
     #head{
+        padding-top: 50px;
+
+        h1 {
+            font-size: 8.5vw;
+
+        }
         p {
-            font-size: 1.2vw;
+            font-size: 2.2vw;
+        }
+
+        .header-btn1 {
+            border-radius: 10px;
+            border: solid var(--corAzulClaro) 1px;
+            width: 30vw;
+            height: calc(30vw/4.5);
+            flex-shrink: 0;
+            img{
+                width: 5vw;
+            }
         }
     }
 }
