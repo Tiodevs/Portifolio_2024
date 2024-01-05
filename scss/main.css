@@ -364,10 +364,13 @@ main .section2 {
     padding-top: 20px;
   }
   #head #header-btn {
-    margin-top: 2vh;
+    margin-top: 7vh;
+  }
+  #head #header-btn .header-btn2 .p-btn-header {
+    font-size: 2.5vw;
   }
   #head #header-btn .header-btn1 {
-    width: 40vw;
+    width: 37vw;
     height: 8.8888888889vw;
     flex-shrink: 0;
   }

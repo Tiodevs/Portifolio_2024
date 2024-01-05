@@ -444,11 +444,16 @@ main {
         padding-top: 20px;
         
         #header-btn{
-            margin-top: 2vh;
-
+            margin-top: 7vh;
+            
+            .header-btn2{
+                .p-btn-header{
+                    font-size: 2.5vw;
+                }
+            }
 
             .header-btn1 {
-                width: 40vw;
+                width: 37vw;
                 height: calc(40vw/4.5);
                 flex-shrink: 0;
                 img{
