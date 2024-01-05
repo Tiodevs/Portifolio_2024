@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,7 @@
     <link rel="shortcut icon" href="./src/img/foto-perfil1.png" type="image/x-icon">
 
     <!-- CSS externo -->
-    <link rel="stylesheet" href="./src/hamburgers.css"> 
+    <link rel="stylesheet" href="./src/hamburgers.css">
     <!-- Para slides docs https://jonsuh.com/hamburgers/ -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- Para slides docs https://swiperjs.com/get-started -->
@@ -17,6 +18,7 @@
 
     <title>Portifolio Felipe.</title>
 </head>
+
 <body>
     <nav>
         <ul class="nav-animate">
@@ -34,7 +36,8 @@
                     <img src="./src/img/Social/Social links.svg" alt="" class="tilt-card" data-tilt data-tilt-scale="1">
                 </a>
                 <a href="https://www.linkedin.com/in/felipe-pereira-dos-santos-a1a3b9207/" target="_blank">
-                    <img src="./src/img/Social/Social links-3.svg" alt="" class="tilt-card" data-tilt data-tilt-scale="1">
+                    <img src="./src/img/Social/Social links-3.svg" alt="" class="tilt-card" data-tilt
+                        data-tilt-scale="1">
                 </a>
                 <a href="https://wa.me/+5541987208843" target="_blank">
                     <img src="./src/img/Social/whatsapp.svg" alt="" class="tilt-card" data-tilt data-tilt-scale="1">
@@ -88,18 +91,19 @@
                 </p>
 
                 <div id="header-btn">
-                        <div class="header-btn1">
-                            <img src="./src/img/Social/Social links.svg" alt="">
-                            <p class="p-btn-header">Meu Perfil Github</p>
-                        </div>
-                        <div class="header-btn2">
-                                <p class="p-btn-header">Contact me</p>
-                                <img src="./src/img/Arrow 1.png" alt="">
-                        </div>
+                    <div class="header-btn1">
+                        <img src="./src/img/Social/Social links.svg" alt="">
+                        <p class="p-btn-header">Meu Perfil Github</p>
+                    </div>
+                    <div class="header-btn2">
+                        <p class="p-btn-header">Contact me</p>
+                        <img src="./src/img/Arrow 1.png" alt="">
+                    </div>
                 </div>
             </div>
 
-            <img src="./src/img/foto-perfil1.png" alt="" id="header-img" class="tilt-card" data-tilt data-tilt-scale="1.1">
+            <img src="./src/img/foto-perfil1.png" alt="" id="header-img" class="tilt-card" data-tilt
+                data-tilt-scale="1.1">
 
         </div>
     </header>
@@ -120,6 +124,14 @@
 
 
     <!-- JS -->
-    <script src="home.js"></script>
+    <script src="">
+        const btnMenu = document.getElementById('js-btn-menu');
+
+        btnMenu.addEventListener('click', () => {
+            document.documentElement.classList.toggle('opened-menu')
+            btnMenu.classList.toggle('is-active')
+        })
+    </script>
 </body>
+
 </html>
