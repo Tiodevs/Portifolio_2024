@@ -328,11 +328,7 @@ main .section2 {
 
 @media (max-width: 1070px) {
   #head {
-    justify-content: center;
-    text-align: center;
-  }
-  #head #header-btn {
-    justify-content: center;
+    padding-top: 100px;
   }
   #head h1 {
     font-size: 7.5vw;
@@ -361,5 +357,10 @@ main .section2 {
   }
   #head #header-btn .header-btn1 img {
     width: 5vw;
+  }
+}
+@media (max-width: 555px) {
+  #head p {
+    font-size: 1.2vw;
   }
 }/*# sourceMappingURL=main.css.map */

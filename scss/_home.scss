@@ -397,12 +397,9 @@ main {
 
 @media (max-width: 1070px){
     #head{
-        justify-content: center;
-        text-align: center;
+        padding-top: 100px;
 
-        #header-btn{
-            justify-content: center;
-        }
+        
 
         h1 {
             font-size: 7.5vw;
@@ -443,10 +440,10 @@ main {
     }
 }
 
-// @media (max-width: 555px){
-//     #head{
-//         p {
-//             font-size: 1.2vw;
-//         }
-//     }
-// }
+@media (max-width: 555px){
+    #head{
+        p {
+            font-size: 1.2vw;
+        }
+    }
+}
