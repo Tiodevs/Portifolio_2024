@@ -19,7 +19,7 @@
     <title>Portifolio Felipe.</title>
 </head>
 
-<body >
+<body>
     <nav>
         <ul class="nav-animate">
             <li class="nav-animate">
@@ -27,9 +27,9 @@
             </li>
             <li id="nav-links" class="nav-animate">
                 <a href="./index.html" id="navanimation">Home</a>
-                <a href="./pages/Projetos.html" id="navanimation">Sites</a>
-                <a href="./pages/Projetos.html" id="navanimation">Posts</a>
-                <a href="./pages/Sobre.html" id="navanimation">Sobre</a>
+                <a href="./pages/Sites/index.html" id="navanimation">Sites</a>
+                <a href="./pages/Posts/index.html" id="navanimation">Posts</a>
+                <a href="./pages/Sobre/index.html" id="navanimation">Sobre</a>
             </li>
             <li id="nav-midias" class="nav-animate">
                 <a href="https://github.com/Tiodevs" target="_blank">
@@ -78,7 +78,7 @@
         </ul>
     </aside>
 
-    <header  class="conteudo">
+    <header class="conteudo">
         <div id="head" class="section">
             <div id="head-text">
 
@@ -91,11 +91,11 @@
                 </p>
 
                 <div id="header-btn">
-                    <div class="header-btn1">
+                    <div class="header-btn1" onclick="redirecionarParaSite('https://github.com/Tiodevs')">
                         <img src="./src/img/Social/Social links.svg" alt="">
                         <p class="p-btn-header">Meu Perfil Github</p>
                     </div>
-                    <div class="header-btn2">
+                    <div class="header-btn2" onclick="redirecionarParaSite('https://wa.me/+5541987208843')">
                         <p class="p-btn-header">Contact me</p>
                         <img src="./src/img/Arrow 1.png" alt="">
                     </div>
@@ -114,13 +114,16 @@
 
     <main>
         <section class="section1">
-            <div class="section1-esquerda">
+            <div class="section1-esquerda" class="tilt-card" data-tilt data-tilt-scale="1">
                 <img src="./src/img/Logo 2.png" alt="">
             </div>
             <div class="section1-direita">
                 <h1>Sobre mim</h1>
-                <p>Desde os 9 anos, desenvolvi uma paixão pela tecnologia. Hoje, sou um desenvolvedor full stack em React.js, com habilidades em Python, PHP, C++, Linux, cibersegurança e AWS, SAP. Estou empolgado para aplicar esse conhecimento no mercado de trabalho, contribuir para o sucesso das empresas e enfrentar novos desafios enquanto continuo aprendendo.</p>
-                <div class="header-btn1">
+                <p>Desde os 9 anos, desenvolvi uma paixão pela tecnologia. Hoje, sou um desenvolvedor full stack em
+                    React.js, com habilidades em Python, PHP, C++, Linux, cibersegurança e AWS, SAP. Estou empolgado
+                    para aplicar esse conhecimento no mercado de trabalho, contribuir para o sucesso das empresas e
+                    enfrentar novos desafios enquanto continuo aprendendo.</p>
+                <div class="header-btn1" onclick="redirecionarParaSite2('./Pages/Sobre/index.html')">
                     <p class="p-btn-header">Veja o meu sobre</p>
                     <img src="./src/img/Arrow 1.png" alt="">
                 </div>
@@ -129,7 +132,7 @@
 
         <div class="scroll-icon">
             <img src="./src/img/Scroll.png" alt="">
-        </div>    
+        </div>
 
         <section class="section2">
             <div class="section2-text">
@@ -138,34 +141,80 @@
             </div>
 
             <div class="section2-cards">
-                <div>
+                <div class="tilt-card" data-tilt data-tilt-scale="1.1">
                     <img src="./src/img/Sites/capa-site-1.png" alt="">
                     <h1>English Game - Plataforma De Jogos Para Aprender Ingês</h1>
-                    <p>Feito com react, HTML CSS e JS. O objetivo era criar jogos que deixassem o estudo do inglês mais divertido</p>
-                    
+                    <p>Feito com react, HTML CSS e JS. O objetivo era criar jogos que deixassem o estudo do inglês mais
+                        divertido</p>
+
                 </div>
-                <div>
+                <div class="tilt-card" data-tilt data-tilt-scale="1.1">
                     <img src="./src/img/Sites/capa-site-2.png" alt="">
                     <h1>English Game - Plataforma de jogos para aprender Ingês</h1>
-                    <p>Feito com react, HTML CSS e JS. O objetivo era criar jogos que deixassem o estudo do inglês mais divertido</p>
+                    <p>Feito com react, HTML CSS e JS. O objetivo era criar jogos que deixassem o estudo do inglês mais
+                        divertido</p>
                 </div>
-                <div>
+                <div class="tilt-card" data-tilt data-tilt-scale="1.1">
                     <img src="./src/img/Sites/capa-site-3.png" alt="">
                     <h1>English Game - Plataforma de jogos para aprender Ingês</h1>
-                    <p>Feito com react, HTML CSS e JS. O objetivo era criar jogos que deixassem o estudo do inglês mais divertido</p>
+                    <p>Feito com react, HTML CSS e JS. O objetivo era criar jogos que deixassem o estudo do inglês mais
+                        divertido</p>
                 </div>
             </div>
-            <div class="section2-btn-final">
+            <div class="section2-btn-final" onclick="redirecionarParaSite2('./Pages/Sites/index.html')">
                 <p class="p-btn-header">Saiba mais</p>
+                <img src="./src/img/Arrow 1.png" alt="">
+            </div>
+        </section>
+
+        <div class="scroll-icon">
+            <img src="./src/img/Scroll.png" alt="">
+        </div>
+
+        <section class="section3">
+            <h1>Não perca tempo e entre em contato</h1>
+            <div onclick="redirecionarParaSite('https://wa.me/+5541987208843')">
+                <p>Entre em contato</p>
                 <img src="./src/img/Arrow 1.png" alt="">
             </div>
         </section>
     </main>
 
+    <footer>
+        <div class="footer-icons">
+            <a href="https://github.com/Tiodevs" target="_blank">
+                <img src="./src/img/Social/Social links.svg" alt="" class="tilt-card" data-tilt data-tilt-scale="1">
+            </a>
+            <a href="https://www.linkedin.com/in/felipe-pereira-dos-santos-a1a3b9207/" target="_blank">
+                <img src="./src/img/Social/Social links-3.svg" alt="" class="tilt-card" data-tilt data-tilt-scale="1">
+            </a>
+            <a href="https://wa.me/+5541987208843" target="_blank">
+                <img src="./src/img/Social/whatsapp.svg" alt="" class="tilt-card" data-tilt data-tilt-scale="1">
+            </a>
+            <a href="" target="_blank">
+                <img src="./src/img/Social/Social links-1.svg" alt="">
+            </a class="tilt-card" data-tilt data-tilt-scale="1">
+        </div>
+
+        <div class="footer-links">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Pages/Sites/index.html">Sites</a></li>
+                <li><a href="./Pages/Posts/index.html">Posts</a></li>
+                <li><a href="./Pages/Sobre/index.html">Sobre</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-logo">
+            <h1>Felipe<span>.</span></h1>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
 
     <!-- JS -->
     <script src="Home.js"></script>
-    
+
 </body>
 
 </html>

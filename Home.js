@@ -7,6 +7,32 @@ btnMenu.addEventListener('click', () => {
     btnMenu.classList.toggle('is-active')
 })
 
+const isMobile = window.innerWidth <= 768;
+
+if (!isMobile) {
+    VanillaTilt.init(document.querySelector(".tilt-card"), {
+        max: 1000,
+        
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+        gyroscope: false
+    });
+}
+
+function redirecionarParaSite(link) {
+    window.open(link, '_blank');
+}
+
+function redirecionarParaSite2(link) {
+    window.location.href = link;
+}
+          
+
+
+
+
+
 // FUNÇÃO DE ESCOLAR DIRETO PARA A OUTRA SESSÃO
 
 // let lastScrollTime = 0;
