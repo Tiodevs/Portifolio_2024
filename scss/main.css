@@ -392,6 +392,7 @@ main .section2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 10vw;
 }
 .section3 h1 {
   color: #FFF;
@@ -624,5 +625,36 @@ footer .footer-logo h1 span {
   .section2-btn-final img {
     margin-left: 10px;
     width: 3vw;
+  }
+}
+@media (max-width: 1070px) {
+  .section3 h1 {
+    text-align: center;
+    font-size: 8vw;
+  }
+  .section3 div {
+    width: 40vw;
+    height: 8vw;
+    flex-shrink: 0;
+    font-weight: 200;
+  }
+  .section3 div p {
+    font-size: 3vw;
+  }
+  .section3 div img {
+    width: 2vw;
+  }
+}
+@media (max-width: 1070px) {
+  footer {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+  }
+  footer .footer-links ul {
+    margin-bottom: 30px;
+    width: 40vw;
+    padding: 0;
   }
 }/*# sourceMappingURL=main.css.map */

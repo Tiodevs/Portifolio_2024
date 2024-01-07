@@ -463,6 +463,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 10vw;
 
     h1 {
         color: #FFF;
@@ -797,7 +798,6 @@ footer {
         img {
             margin-left: 10px;
             width: 3vw;
-    
         }
     }
 }
@@ -805,5 +805,42 @@ footer {
 // Entre em contato
 
 @media (max-width: 1070px){
+    .section3{
+        h1 {
+            text-align: center;
+            font-size: 8vw;
+        }
+        div {
+            width: 40vw;
+            height: calc(40vw/5);
+            flex-shrink: 0;
+            font-weight: 200;
+
+            p{
+                font-size: 3vw;
+            }
     
+            img{
+                width: 2vw;
+            }
+        }
+    }
+}
+
+// Footer
+
+@media (max-width: 1070px){
+    footer{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        height: 280px;
+        .footer-links{
+            ul{
+                margin-bottom: 30px;
+                width: 40vw;
+                padding: 0;
+            }
+        }
+    }
 }
