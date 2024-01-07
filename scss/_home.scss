@@ -840,7 +840,17 @@ footer {
                 margin-bottom: 30px;
                 width: 40vw;
                 padding: 0;
+                
             }
+        }
+    }
+}
+
+@media (max-width: 570px){
+    footer{
+        height: 200px;
+        .footer-links{
+            display: none;
         }
     }
 }

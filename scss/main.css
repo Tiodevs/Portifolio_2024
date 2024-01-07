@@ -657,4 +657,12 @@ footer .footer-logo h1 span {
     width: 40vw;
     padding: 0;
   }
+}
+@media (max-width: 570px) {
+  footer {
+    height: 200px;
+  }
+  footer .footer-links {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
