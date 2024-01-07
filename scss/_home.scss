@@ -771,11 +771,6 @@ footer {
     
                 p {
                     font-size: 2.5vw;
-                    color: var(--corSubTitle);
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: normal;
-                    margin: 0;
                     padding: 0px 5px 10px 5px;
                 }
             }
@@ -785,4 +780,30 @@ footer {
             display: none;
         }
     }
+
+    .section2-btn-final {
+        margin-top: 100px;
+    
+        border-radius: 10px;
+        width: 50vw;
+        height: calc(50vw/4.5);
+        flex-shrink: 0;
+        font-weight: 200;
+    
+        p {
+            font-size: 3vw;
+        }
+    
+        img {
+            margin-left: 10px;
+            width: 3vw;
+    
+        }
+    }
+}
+
+// Entre em contato
+
+@media (max-width: 1070px){
+    
 }
