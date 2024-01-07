@@ -79,7 +79,7 @@ nav ul a:hover {
   color: var(--degrade1);
 }
 nav ul span {
-  color: var(--corAzulClaro);
+  color: var(--degrade1);
 }
 nav #js-btn-menu {
   display: none;
