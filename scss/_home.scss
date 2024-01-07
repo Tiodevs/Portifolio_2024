@@ -277,7 +277,6 @@ aside {
 // Main
 
 main {
-
     .section2 {
         height: 100vh;
     }
@@ -289,20 +288,20 @@ main {
 .section1 {
     min-height: 80vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     padding: 0 10vw 0 10vw;
 
-    .section1-esquerda {
+    .section1-esquerda.tilt-card {
         display: flex;
         justify-content: start;
         align-items: center;
-        width: 30vw;
-
+        width: 20vw;
+        padding: 0 10vw 0 0;
 
         img {
-            width: 30vw;
-            height: 31vw;
+            width: 22vw;
+            height: 23vw;
         }
     }
 
@@ -312,10 +311,10 @@ main {
         justify-content: center;
         align-items: start;
         flex-direction: column;
-        width: 40vw;
+
 
         h1 {
-            font-size: 4vw;
+            font-size: 3vw;
             font-style: normal;
             font-weight: 300;
             line-height: normal;
@@ -337,7 +336,7 @@ main {
             align-items: center;
             border-radius: 10px;
             border: solid var(--corAzulClaro) 1px;
-            width: 17vw;
+            width: 13vw;
             height: calc(17vw/4.5);
 
             margin-top: 29px;
@@ -397,15 +396,15 @@ main {
         div {
             display: flex;
             flex-direction: column;
-            padding: 30px;
-            border-radius: 20px;
-            width: 350px;
+            padding: 1.7vw;
+            border-radius: 10px;
+            width: 27%;
 
             color: #FFF;
             background-color: var(--corFundoCard);
 
             h1 {
-                font-size: 22px;
+                font-size: 1.3vw;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
@@ -415,7 +414,7 @@ main {
             }
 
             p {
-                font-size: 13px;
+                font-size: 0.8vw;
                 color: var(--corSubTitle);
                 font-style: normal;
                 font-weight: 400;
@@ -441,6 +440,10 @@ main {
     height: calc(17vw/4.5);
     flex-shrink: 0;
     font-weight: 200;
+
+    p {
+        font-size: 1vw;
+    }
 
     img {
         margin-left: 10px;
@@ -554,7 +557,6 @@ footer {
         }
     }
 }
-
 
 
 // Reponsividade
@@ -678,83 +680,6 @@ footer {
 
 // Sobre
 
-// Sobre
-
-.section1 {
-    min-height: 80vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10vw 0 10vw;
-
-    .section1-esquerda {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        width: 30vw;
-
-
-        img {
-            width: 30vw;
-            height: 31vw;
-        }
-    }
-
-    .section1-direita {
-        color: #FFF;
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        flex-direction: column;
-        width: 40vw;
-
-        h1 {
-            font-size: 4vw;
-            font-style: normal;
-            font-weight: 300;
-            line-height: normal;
-            margin: 0;
-        }
-
-        p {
-            color: #aca9a9;
-            font-size: 1.2vw;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-        }
-
-        div {
-            cursor: pointer;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 10px;
-            border: solid var(--corAzulClaro) 1px;
-            width: 17vw;
-            height: calc(17vw/4.5);
-
-            margin-top: 29px;
-
-            p {
-                font-size: 0.9vw;
-                font-weight: 200;
-                color: #FFF;
-            }
-
-            img {
-                width: 1.5vw;
-                margin-left: 10px;
-            }
-        }
-
-        div:hover {
-            background: linear-gradient(to left, #0CA3B8, #2E86C1)
-        }
-
-    }
-}
-
 @media (max-width: 1070px) {
     .section1 {
         min-height: 0;
@@ -763,13 +688,14 @@ footer {
 
         text-align: center;
 
-        .section1-esquerda {
+        .section1-esquerda.tilt-card {
             justify-content: center;
             align-items: center;
-            width: 50vw;
-    
-    
+            display: none;
+
+
             img {
+                display: none;
                 width: 40vw;
                 height: 42vw;
             }
@@ -779,42 +705,84 @@ footer {
             justify-content: center;
             align-items: center;
             width: 100%;
-    
+
             h1 {
                 padding-top: 40px;
                 padding-bottom: 10px;
                 font-size: 6vw;
             }
-    
+
             p {
                 font-size: 3vw;
             }
-    
+
             div {
                 margin-bottom: 100px;
                 width: 35vw;
                 height: calc(35vw/4);
-    
+
                 margin-top: 29px;
-    
+
                 p {
                     font-size: 2.2vw;
-                    font-weight: 200;
-                    color: #FFF;
+
                 }
-    
-                img {
-                    width: 1.5vw;
-                    margin-left: 10px;
-                }
+
+
             }
-    
-            div:hover {
-                background: linear-gradient(to left, #0CA3B8, #2E86C1)
-            }
-    
+
+
+
         }
 
 
+    }
+}
+
+// Projetos
+
+@media (max-width: 1070px) {
+    .section2 {
+        .section2-text {
+            h1 {
+                font-size: 8vw;
+                margin: 0;
+            }
+
+            p {
+                font-size: 2vw;
+            }
+        }
+
+        .section2-cards {
+            margin-top: 50px;
+            justify-content: center;
+            align-items: center;
+
+            div {
+                padding: 4vw;
+                width: 65vw;
+
+                h1 {
+                    font-size: 4vw;
+                    padding: 13px 5px 10px 5px;
+                    
+                }
+    
+                p {
+                    font-size: 2.5vw;
+                    color: var(--corSubTitle);
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin: 0;
+                    padding: 0px 5px 10px 5px;
+                }
+            }
+        }
+
+        .section2-cards div:nth-child(n+2):nth-child(-n+3) {
+            display: none;
+        }
     }
 }
