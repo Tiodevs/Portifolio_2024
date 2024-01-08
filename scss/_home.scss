@@ -979,12 +979,12 @@ footer {
 // 
 
 .section1-Sobre {
-    min-height: 80vh;
     display: flex;
     justify-content: start;
     align-items: center;
     padding: 0 10vw 0 10vw;
-    margin-top: 70px;
+    margin-top: 250px;
+    margin-bottom: 220px;
 
     .section1-esquerda.tilt-card {
         display: flex;
@@ -1052,6 +1052,68 @@ footer {
         }
 
     }
+}
+
+.section2-Sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+
+    .section2-text{
+        margin-bottom: 140px;
+        h1{
+            background-image: linear-gradient(to right, #0CA3B8, #01DFB2 50%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            font-weight: bold;
+            font-size: 3vw;
+            margin: 0;
+        }
+        p{
+            font-size: 0.9vw;
+        }
+    }
+
+
+    .card-Sobre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 35vw;
+
+        h1{
+            color: #FFF;
+            font-size: 3vw;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        p:nth-child(1){
+            color: #757575;
+            font-weight: 400;
+        }
+
+        p:nth-child(3){
+            font-weight: 4vw;
+        }
+
+        a{
+            color: #5AA3E8;
+            text-decoration: none;
+            margin-top: 30px;
+        }
+
+        img{
+            margin: 25px 0;
+        }
+    }
+
+    
 }
 
 @media (max-width: 1070px) {

@@ -752,12 +752,12 @@ footer .footer-logo h1 span {
   }
 }
 .section1-Sobre {
-  min-height: 80vh;
   display: flex;
   justify-content: start;
   align-items: center;
   padding: 0 10vw 0 10vw;
-  margin-top: 70px;
+  margin-top: 250px;
+  margin-bottom: 220px;
 }
 .section1-Sobre .section1-esquerda.tilt-card {
   display: flex;
@@ -813,6 +813,58 @@ footer .footer-logo h1 span {
 }
 .section1-Sobre .section1-direita div:hover {
   background: linear-gradient(to left, #0CA3B8, #2E86C1);
+}
+
+.section2-Sobre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+}
+.section2-Sobre .section2-text {
+  margin-bottom: 140px;
+}
+.section2-Sobre .section2-text h1 {
+  background-image: linear-gradient(to right, #0CA3B8, #01DFB2 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 3vw;
+  margin: 0;
+}
+.section2-Sobre .section2-text p {
+  font-size: 0.9vw;
+}
+.section2-Sobre .card-Sobre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+}
+.section2-Sobre .card-Sobre h1 {
+  color: #FFF;
+  font-size: 3vw;
+  font-weight: 500;
+  margin: 0;
+}
+.section2-Sobre .card-Sobre p:nth-child(1) {
+  color: #757575;
+  font-weight: 400;
+}
+.section2-Sobre .card-Sobre p:nth-child(3) {
+  font-weight: 4vw;
+}
+.section2-Sobre .card-Sobre a {
+  color: #5AA3E8;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.section2-Sobre .card-Sobre img {
+  margin: 25px 0;
 }
 
 @media (max-width: 1070px) {
