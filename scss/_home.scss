@@ -276,12 +276,7 @@ aside {
 
 // Main
 
-main {
-    .section2 {
-        height: 100vh;
-    }
 
-}
 
 // Sobre
 
@@ -363,7 +358,7 @@ main {
 // Projetos
 
 .section2 {
-    min-height: 100vh;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -692,13 +687,14 @@ footer {
         .section1-esquerda.tilt-card {
             justify-content: center;
             align-items: center;
-            display: none;
+            padding: 0;
+            width: 100%;
 
 
             img {
-                display: none;
-                width: 40vw;
-                height: 42vw;
+                
+                width: 50vw;
+                height: 52vw;
             }
         }
 
@@ -744,6 +740,7 @@ footer {
 
 @media (max-width: 1070px) {
     .section2 {
+        margin-bottom: 100px;
         .section2-text {
             h1 {
                 font-size: 8vw;
@@ -806,6 +803,8 @@ footer {
 
 @media (max-width: 1070px){
     .section3{
+        height: 100%;
+        
         h1 {
             text-align: center;
             font-size: 8vw;
@@ -1208,6 +1207,4 @@ footer {
             }
         }
     }
-
-    
 }

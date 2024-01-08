@@ -238,10 +238,6 @@ aside ul li a {
   margin-top: 100px;
 }
 
-main .section2 {
-  height: 100vh;
-}
-
 .section1 {
   min-height: 80vh;
   display: flex;
@@ -306,7 +302,7 @@ main .section2 {
 }
 
 .section2 {
-  min-height: 100vh;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -553,12 +549,12 @@ footer .footer-logo h1 span {
   .section1 .section1-esquerda.tilt-card {
     justify-content: center;
     align-items: center;
-    display: none;
+    padding: 0;
+    width: 100%;
   }
   .section1 .section1-esquerda.tilt-card img {
-    display: none;
-    width: 40vw;
-    height: 42vw;
+    width: 50vw;
+    height: 52vw;
   }
   .section1 .section1-direita {
     justify-content: center;
@@ -584,6 +580,9 @@ footer .footer-logo h1 span {
   }
 }
 @media (max-width: 1070px) {
+  .section2 {
+    margin-bottom: 100px;
+  }
   .section2 .section2-text h1 {
     font-size: 8vw;
     margin: 0;
@@ -628,6 +627,9 @@ footer .footer-logo h1 span {
   }
 }
 @media (max-width: 1070px) {
+  .section3 {
+    height: 100%;
+  }
   .section3 h1 {
     text-align: center;
     font-size: 8vw;
