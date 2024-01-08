@@ -27,38 +27,20 @@ function redirecionarParaSite(link) {
 function redirecionarParaSite2(link) {
     window.location.href = link;
 }
+
+// Baixar CV
+
+document.getElementById('divParaDownload').addEventListener('click', function() {
+    // Cria um link temporário
+    var link = document.createElement('a');
+    link.href = './CV.pdf'; // Substitua pelo caminho do seu PDF
+    link.download = 'CV.pdf'; // Nome do arquivo que será baixado
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link); // Remove o link temporário
+});
           
 
 
 
 
-
-// FUNÇÃO DE ESCOLAR DIRETO PARA A OUTRA SESSÃO
-
-// let lastScrollTime = 0;
-
-// window.addEventListener("wheel", event => {
-//     const now = new Date().getTime();
-    
-//     // Verificando a direção do scroll
-//     const delta = Math.sign(event.deltaY);
-    
-//     if (now - lastScrollTime < 800) {
-//         event.preventDefault();
-//         return;
-//     }
-
-//     lastScrollTime = now;
-
-//     if(delta == -1){
-//         window.scrollTo({
-//             top: window.scrollY - 900,
-            
-//         });
-//     } else {
-//         window.scrollTo({
-//             top: window.scrollY + 900,
-            
-//         });
-//     }
-// });

@@ -665,4 +665,193 @@ footer .footer-logo h1 span {
   footer .footer-links {
     display: none;
   }
+}
+.section1-Sites {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10vw 0 10vw;
+}
+.section1-Sites .section2-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+  margin-top: 250px;
+}
+.section1-Sites .section2-text h1 {
+  font-size: 4vw;
+  margin: 0;
+}
+.section1-Sites .section2-text p {
+  font-size: 1vw;
+}
+.section1-Sites .section2-cards {
+  margin-top: 100px;
+  margin-bottom: 200px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section1-Sites .section2-cards div {
+  display: flex;
+  flex-direction: column;
+  padding: 1.7vw;
+  border-radius: 10px;
+  width: 26%;
+  margin: 20px;
+  color: #FFF;
+  background-color: var(--corFundoCard);
+}
+.section1-Sites .section2-cards div h1 {
+  font-size: 1.3vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 30px 5px 10px 5px;
+  flex-shrink: 0;
+}
+.section1-Sites .section2-cards div p {
+  font-size: 0.8vw;
+  color: var(--corSubTitle);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding: 10px;
+}
+
+@media (max-width: 1070px) {
+  .section1-Sites .section2-text h1 {
+    font-size: 8vw;
+    margin: 0;
+  }
+  .section1-Sites .section2-text p {
+    font-size: 2vw;
+  }
+  .section1-Sites .section2-cards {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .section1-Sites .section2-cards div {
+    padding: 4vw;
+    width: 65vw;
+  }
+  .section1-Sites .section2-cards div h1 {
+    font-size: 4vw;
+    padding: 13px 5px 10px 5px;
+  }
+  .section1-Sites .section2-cards div p {
+    font-size: 2.5vw;
+    padding: 0px 5px 10px 5px;
+  }
+}
+.section1-Sobre {
+  min-height: 80vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0 10vw 0 10vw;
+  margin-top: 70px;
+}
+.section1-Sobre .section1-esquerda.tilt-card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 20vw;
+  padding: 0 10vw 0 0;
+}
+.section1-Sobre .section1-esquerda.tilt-card img {
+  width: 22vw;
+  height: 23vw;
+}
+.section1-Sobre .section1-direita {
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.section1-Sobre .section1-direita h1 {
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 0;
+}
+.section1-Sobre .section1-direita p {
+  color: #aca9a9;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section1-Sobre .section1-direita div {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: solid var(--corAzulClaro) 1px;
+  width: 13vw;
+  height: 3.7777777778vw;
+  margin-top: 29px;
+}
+.section1-Sobre .section1-direita div p {
+  font-size: 1.2vw;
+  font-weight: 200;
+  color: #FFF;
+}
+.section1-Sobre .section1-direita div img {
+  width: 1.5vw;
+  margin-left: 10px;
+}
+.section1-Sobre .section1-direita div:hover {
+  background: linear-gradient(to left, #0CA3B8, #2E86C1);
+}
+
+@media (max-width: 1070px) {
+  .section1-Sobre {
+    min-height: 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .section1-Sobre .section1-esquerda.tilt-card {
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  .section1-Sobre .section1-esquerda.tilt-card img {
+    display: none;
+    width: 40vw;
+    height: 42vw;
+  }
+  .section1-Sobre .section1-direita {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .section1-Sobre .section1-direita h1 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 6vw;
+  }
+  .section1-Sobre .section1-direita p {
+    font-size: 3vw;
+  }
+  .section1-Sobre .section1-direita div {
+    margin-bottom: 100px;
+    width: 35vw;
+    height: 8.75vw;
+    margin-top: 29px;
+  }
+  .section1-Sobre .section1-direita div p {
+    font-size: 2.2vw;
+  }
 }/*# sourceMappingURL=main.css.map */
