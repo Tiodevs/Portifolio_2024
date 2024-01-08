@@ -822,6 +822,7 @@ footer .footer-logo h1 span {
   align-items: center;
   text-align: center;
   color: #FFF;
+  margin-bottom: 100px;
 }
 .section2-Sobre .section2-text {
   margin-bottom: 140px;
@@ -873,16 +874,18 @@ footer .footer-logo h1 span {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin: 160px 0 0 0;
   }
   .section1-Sobre .section1-esquerda.tilt-card {
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
+    padding: 0;
+    width: 100%;
   }
   .section1-Sobre .section1-esquerda.tilt-card img {
-    display: none;
-    width: 40vw;
-    height: 42vw;
+    width: 50vw;
+    height: 52vw;
   }
   .section1-Sobre .section1-direita {
     justify-content: center;
@@ -905,5 +908,31 @@ footer .footer-logo h1 span {
   }
   .section1-Sobre .section1-direita div p {
     font-size: 2.2vw;
+  }
+  .section2-Sobre {
+    padding: 0 10vw;
+  }
+  .section2-Sobre .section2-text {
+    margin: 50px 0;
+  }
+  .section2-Sobre .section2-text h1 {
+    font-size: 8vw;
+  }
+  .section2-Sobre .section2-text p {
+    font-size: 2.5vw;
+  }
+  .section2-Sobre .card-Sobre {
+    width: 100%;
+  }
+  .section2-Sobre .card-Sobre h1 {
+    font-size: 7vw;
+  }
+  .section2-Sobre .card-Sobre p:nth-child(1) {
+    font-size: 2.5vw;
+    font-weight: 500;
+  }
+  .section2-Sobre .card-Sobre p:nth-child(3) {
+    font-size: 3vw;
+    font-weight: 300;
   }
 }/*# sourceMappingURL=main.css.map */
