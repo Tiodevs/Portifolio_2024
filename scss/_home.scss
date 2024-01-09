@@ -905,6 +905,29 @@ footer {
             color: #FFF;
             background-color: var(--corFundoCard);
 
+            div{
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                
+                flex-direction: row;
+                width: 90%;
+                margin: 0 10px;
+                padding: 0 10px;
+
+                img{
+                    width: 1vw;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: #4775A1;
+                    font-size: 1vw;
+                    font-weight: 300;
+                    margin-right: 10px;
+                }
+            }
+
             h1 {
                 font-size: 1.3vw;
                 font-style: normal;
@@ -951,6 +974,21 @@ footer {
             div {
                 padding: 4vw;
                 width: 65vw;
+
+                div{
+    
+                    img{
+                        width: 4vw;
+                    }
+    
+                    a{
+                        text-decoration: none;
+                        color: #4775A1;
+                        font-size: 3vw;
+                        font-weight: 300;
+                        margin-right: 1vw;
+                    }
+                }
 
                 h1 {
                     font-size: 4vw;

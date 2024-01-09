@@ -708,6 +708,25 @@ footer .footer-logo h1 span {
   color: #FFF;
   background-color: var(--corFundoCard);
 }
+.section1-Sites .section2-cards div div {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 10px;
+  padding: 0 10px;
+}
+.section1-Sites .section2-cards div div img {
+  width: 1vw;
+}
+.section1-Sites .section2-cards div div a {
+  text-decoration: none;
+  color: #4775A1;
+  font-size: 1vw;
+  font-weight: 300;
+  margin-right: 10px;
+}
 .section1-Sites .section2-cards div h1 {
   font-size: 1.3vw;
   font-style: normal;
@@ -743,6 +762,16 @@ footer .footer-logo h1 span {
   .section1-Sites .section2-cards div {
     padding: 4vw;
     width: 65vw;
+  }
+  .section1-Sites .section2-cards div div img {
+    width: 4vw;
+  }
+  .section1-Sites .section2-cards div div a {
+    text-decoration: none;
+    color: #4775A1;
+    font-size: 3vw;
+    font-weight: 300;
+    margin-right: 1vw;
   }
   .section1-Sites .section2-cards div h1 {
     font-size: 4vw;
